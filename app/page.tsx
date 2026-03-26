@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>Wedding Invitation</h1>
+      <h1>Wedding Invitationzzz</h1>
     </main>
   )
 }
