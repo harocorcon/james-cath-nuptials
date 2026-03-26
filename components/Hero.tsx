@@ -35,8 +35,8 @@ export default function Hero({ name }: { name: string }) {
         James Alan <br/> and <br/> Catherine
       </h1>
 
-      <p className={`${tangerine.className} mt-4 text-lg  text-gray-600 max-w-md leading-relaxed`}>
-        I will marry my best friend, the person with whom I laugh, live, dream, and love.
+      <p className={` mt-4 text-xs italic  text-gray-600 max-w-md leading-relaxed`}>
+        I will marry my best friend, <br/>the person with whom I laugh, live, dream, and love.
       </p>
 
       {/* Wedding Details */}
@@ -57,7 +57,7 @@ export default function Hero({ name }: { name: string }) {
     <div className="w-12 h-[1px] bg-[#d6cfc4] mx-auto my-4"></div>
 
     {/* Church */}
-    <p className="text-sm text-gray-700 font-medium">
+    <p className="text-sm text-gray-800 font-medium">
       Saint Michael the Archangel Parish
     </p>
 
@@ -66,8 +66,9 @@ export default function Hero({ name }: { name: string }) {
     </p>
 
     {/* Reception */}
-    <p className="mt-3 text-sm text-gray-600 italic">
-      Reception will follow at Bayan's Resortel
+    <p className="mt-4 text-sm text-gray-600">
+      Reception to follow at <br/>
+      <span className="text-lg text-gray-800 font-medium">Bayan's Resortel</span>
     </p>
 
     {/* Divider */}
@@ -77,10 +78,8 @@ export default function Hero({ name }: { name: string }) {
     <div className="flex flex-col items-center justify-center gap-2 text-sm text-gray-600">
 
       <div className="flex flex-col items-center gap-2">
-        <span>Motif:</span>
-
-        <span className="font-medium text-gray-800">
-            Champagne Gold
+        <span className="font-medium text-gray-500">
+            Motif: <span className=" text-gray-800 font-medium">Champagne Gold</span>
         </span>
         </div>
       {/* Color circle instead of image (cleaner!) */}
