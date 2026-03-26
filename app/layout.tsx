@@ -51,12 +51,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-      // className={`${playfair.className} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${parisienne.variable} bg-[#f8f6f2] text-gray-800`}
     >
-      <body className={`${playfair.className} min-h-full flex flex-col`}>
-        <div className="w-full max-w-md min-h-screen bg-white shadow-md">
-          {children}
+      <body className={`${playfair.className} bg-[#f8f6f2]`}>
+        <div className="min-h-screen flex justify-center bg-white shadow-md">
+          <div className="w-full max-w-md bg-white shadow-xl">
+            {children}
+          </div>
         </div>
       </body>
     </html>
