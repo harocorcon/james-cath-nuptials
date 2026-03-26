@@ -23,6 +23,23 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "James | Cath",
   description: "Wedding Invitation for James and Catherine",
+
+  openGraph: {
+    title: "James & Catherine Wedding",
+    description: "Join us on our special day 💍",
+    url: "https://james-cath-nuptials.vercel.app",
+    siteName: "Wedding Invitation",
+    images: [
+      {
+        url: "/couple.png", // must be in /public
+        width: 1200,
+        height: 630,
+        alt: "James & Catherine",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
