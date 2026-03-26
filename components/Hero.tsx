@@ -31,7 +31,7 @@ export default function Hero({ name }: { name: string }) {
 
       {/* Names */}
 
-      <h1 className={`text-4xl md:text-5xl ${parisienne.className} tracking-wide text-[#be9408]`}>
+      <h1 className={`text-4xl md:text-5xl ${parisienne.className} tracking-wide text-gray-900 mt-8 font-bold`}>
         James Alan <br/> and <br/> Catherine
       </h1>
 
