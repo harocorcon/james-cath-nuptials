@@ -12,7 +12,7 @@ export default function MusicPlayer({ play }: { play: boolean }) {
 
   return (
     <audio ref={audioRef} loop>
-      <source src="/wedding-song.mp3" type="audio/mpeg" />
+      <source src="/hinaut.mp3" type="audio/mpeg" />
     </audio>
   )
 }
