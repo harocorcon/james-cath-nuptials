@@ -35,7 +35,7 @@ export default function Countdown() {
 
   <div className="bg-white/70 backdrop-blur-md rounded-2xl shadow-lg border border-[#e8e2d8] p-6">
 
-    <p className="text-sm uppercase tracking-widest text-gray-500 mb-4">
+    <p className="text-sm uppercase tracking-widest text-gray-800 mb-4">
       Countdown to our wedding
     </p>
 
