@@ -1,14 +1,17 @@
 "use client"
 
-import { useRef } from "react"
+import { useEffect, useRef } from "react"
 
 export default function MusicPlayer({ play }: { play: boolean }) {
 
   const audioRef = useRef<HTMLAudioElement>(null)
 
-  if (play) {
-    audioRef.current?.play().catch(() => {})
-  }
+  useEffect(() => {
+    if (play && audioRef.current) {
+      audioRef.current.currentTime = 15 // ⏩ start at 15 seconds
+      audioRef.current.play().catch(() => {})
+    }
+  }, [play])
 
   return (
     <audio ref={audioRef} loop>
