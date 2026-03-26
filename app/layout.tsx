@@ -31,7 +31,8 @@ export const metadata: Metadata = {
     siteName: "Wedding Invitation",
     images: [
       {
-        url: "/couple.png", // must be in /public
+        // url: "/couple.png", // must be in /public
+        url: "https://james-cath-nuptials.vercel.app/couple.png",
         width: 1200,
         height: 630,
         alt: "James & Catherine",
